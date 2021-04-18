@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: unset;
+    color: #0645AD;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    color: #202122;
+    margin: 0;
+}
+/* === HELPER COLOR === */
+header {
+    background-color: rgba(0, 0, 255, 0.11);
+}
+.buttons {
+    background-color: rgba(165, 42, 42, 0.185);
+}
+.meniu {
+    background-color: rgba(128, 255, 0, 0.267);
+}
+nav {
+    background-color: rgba(0, 255, 255, 0.11);
+}
+/* === BASIC STYLES === */
+.buttons {
+    display: inline-block;
+    font-size: 0.625rem;
+    width: 85%;
+    text-align: right;
+    background-color: #FBFBFB;
+    float: right;
+}
+nav {
+    float: left;
+    margin-top: 0px;
+    width: 15%;
+}
+nav img {
+    width: 100%; 
+}
+.meniu {
+    float: right;
+    width: 85%;
+    background-color: #FBFBFB;
+}
+button {
+    text-align: right;
+    font-size: 0.5rem;
+    margin: 0;
+    padding: unset;
+}
+input {
+    font-size: 7px;
+}
+.right {
+    float: right;
+    display: inline-flex;
+    
+}
+.left {
+    float: left;
+    display: inline-flex;
+}
+/* === BUTTON DESIFN ==== */
+.withe {
+    background-color: white;
+    border: 5px solid white;
+    margin: unset;
+}
+.blue {
+    background-image: linear-gradient(to bottom,rgba(177, 217, 245, 0) 0,#a7d7f998 100%);
+    background-size: 1px 100%;
+    border: unset;
+    padding: 6px;
+    color: #0645AD;
+}
+
+#input { /* IMAGNE IN BUTTON */
+    margin: 2px;
+    background-image: url('https://media.istockphoto.com/videos/magnifying-glass-search-icon-in-and-out-animation-loop-black-video-id954018392?s=640x640');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 16px;
+    border: .1px solid #A2A9B1;
+}
+.buttons {
+    font-size: 0.4375rem;
+    padding: 6px;
+}
+.buttons small, a {
+    display: inline-block;
+    padding: 2px;
+}
+.buttons i, small {
+    color: #54595D;
+}
+/* === NAV STYLES === */
+nav {
+    background-color: #F8F9FA;
+}
+nav a {
+    display: block;
+    font-size: 0.5rem;
+    word-wrap: break-word;
+    padding: 0.25rem
+}
+nav img {
+    padding-bottom: 1rem;
+}
+nav p {
+    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+    font-size: 0.5rem;
+    padding-top: 1rem;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    color: #54595D;
+    padding: .25rem;
+}
+.Languages i {
+    padding-left: 0.315rem;
+}
+/* === FIRST ARTICLE STYLES === */
+main {
+    width: 85%;
+    float: left;
+    margin: 0;
+}
+.first {
+    padding: 5px;
+    margin: 0;
+}
+.first h1 {
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Linux Libertine','Georgia','Times', serif;
+    padding: 0px;
+}
+h1 {
+    line-height: 1.3;
+    border-bottom: 0.5px solid #A2A9B1;
+    margin-bottom: 0.25rem;
+    margin: 0;
+    font-weight: unset;
+}
+.first h6  {
+    font-size: 0.5rem;
+    padding: 0;
+    margin-top: 0;
+    margin: 0;
+    margin-top: 0.25rem;
+}
+.first p {
+    padding-top: 10px;
+    font-size: 0.625rem;
+    margin: 0;
+}
+.content {
+    display: inline-block;
+    border: .5px solid #A2A9B1;
+    background-color: #F8F9FA;
+    font-size: 0.625rem;
+}
+.content p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.content  li {
+    color: #0645AD;
+    list-style-type: none;
+    padding: 2px;
+}
