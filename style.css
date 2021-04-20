@@ -186,7 +186,7 @@ h1 {
 }
 .content  li {
     color: #0645AD;
-    list-style-type: unset;
+    list-style-type: none;
 }
 /* === Container Styles === */
 .container {
